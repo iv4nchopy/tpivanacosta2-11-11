@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal - TP Iván Acosta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bienvenido a mi Trabajo Práctico</h1>
+    <p id="mensaje"></p>
+
+    <div class="botones">
+        <button onclick="irPagina('pagina2.html')" class="animado">Ir a Galería</button>
+        <button onclick="irPagina('pagina3.html')" class="animado">Ir a Tabla</button>
+        <button onclick="mostrarDescripcion()" class="animado">Descripción del Sitio</button>
+    </div>
+
+    <div id="descripcion" class="oculto">
+        <p><strong>Página 2:</strong> contiene una galería con animaciones e interacción según tu edad.</p>
+        <p><strong>Página 3:</strong> muestra una tabla con operaciones matemáticas interactivas.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

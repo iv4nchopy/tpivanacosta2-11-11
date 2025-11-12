@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones - TP Iván Acosta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Operaciones Matemáticas</h1>
+
+    <table>
+        <tr>
+            <th class="titulo-animado">OPERACIÓN</th>
+            <th class="titulo-animado">DESCRIPCIÓN</th>
+            <th class="titulo-animado">BOTONES</th>
+        </tr>
+        <tr>
+            <td>Suma</td>
+            <td>Suma dos números ingresados</td>
+            <td><button onclick="sumar()">Calcular</button></td>
+        </tr>
+        <tr>
+            <td>División</td>
+            <td>Divide el primer número por el segundo</td>
+            <td><button onclick="dividir()">Calcular</button></td>
+        </tr>
+        <tr>
+            <td>Promedio</td>
+            <td>Promedia los dos números ingresados</td>
+            <td><button onclick="promediar()">Calcular</button></td>
+        </tr>
+    </table>
+
+    <div class="botones">
+        <button onclick="irPagina('index.html')" class="animado">Volver al Inicio</button>
+        <button onclick="irPagina('pagina2.html')" class="animado">Ir a Galería</button>
+    </div>
+
+    <p class="autor">© 2025 Iván Acosta</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
